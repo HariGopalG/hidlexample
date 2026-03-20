@@ -1,0 +1,17 @@
+cc_binary {
+    name: "hellohidl-client",
+    proprietary: true,
+    srcs: [
+        "main.cpp",
+    ],
+    shared_libs: [
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "vendor.example.hellohidl@1.0",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+    ],
+}

@@ -1,0 +1,9 @@
+package vendor.example.hellohidl@1.0;
+
+interface IHello {
+    sayHello(string name) generates ();
+
+    add(int32_t left, int32_t right) generates (int32_t sum);
+
+    getRequestCount() generates (uint32_t count);
+};

@@ -1,0 +1,4 @@
+type hal_hellohidl, domain;
+type hal_hellohidl_hwservice, hwservice_manager_type;
+
+hal_attribute_hwservice(hal_hellohidl, hal_hellohidl_hwservice)

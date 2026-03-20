@@ -1,0 +1,12 @@
+hidl_interface {
+    name: "vendor.example.hellohidl@1.0",
+    root: "vendor.example",
+    srcs: [
+        "IHello.hal",
+    ],
+    interfaces: [
+        "android.hidl.base@1.0",
+    ],
+    gen_java: false,
+    unstable: true,
+}
